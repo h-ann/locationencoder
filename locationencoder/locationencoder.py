@@ -3,7 +3,7 @@ import lightning.pytorch as pl
 
 import locationencoder.pe as PE
 import locationencoder.nn as NN
-from utils.losses import get_loss_fn
+from .utils.losses import get_loss_fn
 
 from sklearn.metrics import (
     accuracy_score, 
