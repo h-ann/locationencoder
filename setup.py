@@ -8,6 +8,7 @@ setup(
     version='1.0',
     author="Marc Rußwurm",
     author_email="marc.russwurm@wur.nl",
-    packages=find_packages(include=['locationencoder']),
-    install_requires=requirements
+    packages=find_packages(),
+    install_requires=requirements,
+    include_package_data=True
 )
